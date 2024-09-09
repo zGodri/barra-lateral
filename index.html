@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comidas - Vegetais e Frutas</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <ul>
+                <li>
+                    <button class="filter-button selecionado" data-target="all">Todos</button>
+                </li>
+                <li>
+                    <button class="filter-button" data-target="vegetal">Vegetais</button>
+                </li>
+                <li>
+                    <button class="filter-button" data-target="fruta">Frutas</button>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="item vegetal" id="brocolis">
+                <img src="/imagens/brocolis.png" alt="Brócolis">
+                <h3>Brócolis</h3>
+            </div>
+
+            <div class="item vegetal" id="cenoura">
+                <img src="/imagens/cenoura.png" alt="Cenoura">
+                <h3>Cenoura</h3>
+            </div>
+
+            <div class="item fruta" id="banana">
+                <img src="/imagens/banana.png" alt="Banana">
+                <h3>Banana</h3>
+            </div>
+
+            <div class="item fruta" id="morango">
+                <img src="/imagens/morango2.png" alt="Morango">
+                <h3>Morango</h3>
+            </div>
+
+            <div class="item vegetal" id="alface">
+                <img src="/imagens/alface.png" alt="Alface">
+                <h3>Alface</h3>
+            </div>
+
+            <div class="item fruta" id="maca">
+                <img src="/imagens/maca.png" alt="Maçã">
+                <h3>Maçã</h3>
+            </div>
+        </main>
+    </div>
+
+</body>
+<script src="filtro.js"></script>
+</html>
